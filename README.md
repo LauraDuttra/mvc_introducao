@@ -1,12 +1,13 @@
-# *MVC Introdução 👌*
- 
-Utilização de MVC (Modal - View - Controler), ou seja, organização de forma clara do código em 3 partes. Aplicação apenas em PHP.
+# *🧩 Introdução ao Padrão MVC*
 
-Objetivo da atividade é a aplicação correta do MVC, prática dos códigos em PHP e entendimento da estrutura do código.
+O padrão MVC (Model-View-Controller) é uma arquitetura de software muito utilizada no desenvolvimento de aplicações, especialmente web. Ele tem como principal objetivo separar responsabilidades, tornando o código mais organizado, reutilizável e fácil de manter.
 
-💡 Enunciado:
+Model (Modelo): Responsável pela lógica de dados da aplicação, como acesso ao banco de dados, validações e regras de negócio.
 
-Imagine que você foi contratado para criar um sistema simples em PHP, usando o padrão MVC (Model - View - Controller), para gerenciar o cadastro de livros de uma pequena biblioteca escolar. O sistema deve permitir: * 1. Listar livros cadastrados. * 2. Exibir informações de cada livro (Título, Autor, Ano de publicação).
-Após a aplicação do código e finalização do MVC, as informações aparecerão no navegador dessa forma:
+View (Visão): Cuida da apresentação da interface com o usuário. Exibe os dados fornecidos pelo Model e envia ações do usuário ao Controller.
 
-<img width="959" alt="image" src="https://github.com/user-attachments/assets/c1222cd3-8472-44ff-b1a5-f5631a4b82d7" />
+Controller (Controlador): Atua como intermediário entre o Model e a View. Processa as entradas do usuário, interage com o Model e atualiza a View.
+
+Essa separação ajuda a tornar o desenvolvimento mais modular e facilita o trabalho em equipe, já que diferentes partes do projeto podem ser desenvolvidas de forma independente.
+
+<img width="959" alt="image" src="https://github.com/user-attachments/assets/93fe5858-026f-463d-9b1f-e7d5ec7a06e2" />
